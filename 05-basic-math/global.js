@@ -1,7 +1,7 @@
 // Prompt the user for three numbers (make sure to parse them as integers, and make sure to store each in a well-named variable)
-x = prompt("Please enter the first number:")
-y = prompt("Please enter the second number:")
-z = prompt("Please enter the third number:")
+var x = prompt("Please enter the first number:")
+var y = prompt("Please enter the second number:")
+var z = prompt("Please enter the third number:")
 
 // Output the sum of the three numbers in a string: 7 + 4 + 12 = 23
 
