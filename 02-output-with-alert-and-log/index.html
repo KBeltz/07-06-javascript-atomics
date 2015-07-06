@@ -1,0 +1,32 @@
+<!doctype HTML>
+<html>
+<head>
+  <title>JS Atomic 02</title>
+  <script type="text/javascript" src="global.js"></script>
+</head>
+<body>
+  <h1>JS Atomic 02, The Q&A Session</h1>
+
+  <h2>What's the difference between alert() and console.log()?</h2>
+  <p>The alert() method displays an alert box with a specified message and an OK button. It prevents the user from accessing other parts of the page until the box is closed.
+  console.log () will take whatever is inside the parentheses and log it to the console below your code.</p>
+
+  <h2>What's one situation where you might use an `alert()` to tell the user something?</h2>
+  <p>For a warning message that needs to be displayed to the user.</p>
+
+  <h2>What's one way that `alert()` might get obnoxious?</h2>
+  <p>Overuse of alert() could become obnoxious due to the fact that the user cannot access other parts of the page until the box is closed. Constantly having to close alert windows is annoying.</p>
+
+  <h2>Would it make sense to use console.log() to tell the user things? Why or why not?</h2>
+  <p>No. console.log() gives output to the console, which isn't immediately viewable by the user without going into the developer console.</p>
+
+  <h2>What's one way that console.log() might be a good tool for you to use?</h2>
+  <p>Debugging</p>
+
+  <h2>When do the console.log() statements get run? Is it before the first alert() gets displayed? After it gets displayed but before the user clicks "OK" (or equivalent)? After the user clicks to close the dialog box? A different time? How did you find out for sure?</h2>
+  <p>Using the javascript console, I determined that the console.log() statements are run between the alerts. No console.log() statements were visible when the first alert box was open.</p>
+
+  <h2>What questions do you have?</h2>
+  <p>What is the output folder for?</p>
+</body>
+</html>
