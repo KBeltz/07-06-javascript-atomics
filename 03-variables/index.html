@@ -1,0 +1,30 @@
+<!doctype HTML>
+<html>
+<head>
+  <title>JS Atomic 03</title>
+  <script type="text/javascript" src="global.js"></script>
+</head>
+<body>
+  <h1>JS Atomic 03</h1>
+
+  <h2>Given what you know so far, what are some reasons to use variables?</h2>
+  <p>So if you need to change a value in your code, it only needs to be changed in one place instead of lots of places.</p>
+
+  <h2>What are some advantages to variable names like hairColor instead of hc (for example)? What are some disadvantages?</h2>
+  <p>Advantages: more specific names make it easier to read and understand your code.</p>
+  <p>Disadvantages: longer variable names are...longer. It takes longer to type and more characters = higher chance of making a mistake.</p>
+
+  <h2>Given what you know so far, what can you predict about other ways we might use variables?</h2>
+  <p>DRY.</p>
+
+  <h2>Why don't you need to use the var keyword every time you use a variable (right now, we only use it when we create the variable)? What does var do?</h2>
+  <p>The variable statement declares a variable, optionally initializing it to a value, therefore var only needs to be used when the variable is declared.</p>
+  <p>Because variable declarations (and declarations in general) are processed before any code is executed, declaring a variable anywhere in the code is equivalent to declaring it at the top. This also means that a variable can appear to be used before it's declared.</p>
+
+  <h2>What happens if you try to do output with a variable without first assigning a value to that variable? What happens? Does the program still work as intended? Do error messages show up in the console? If so, what error message?</h2>
+  <p>If you use var the variable is declared within the scope you are in (e.g. of the function). If you don't use var, the variable bubbles up through the layers of scope until it encounters a variable by the given name or the global object (window, if you are doing it in the browser), where it then attaches. It is then very similar to a global variable. However, it can still be deleted with delete (most likely by someone else's code who also failed to use var). If you use var in the global scope, the variable is truly global and cannot be deleted.</p>
+
+  <h2>What questions do you have?</h2>
+  <p>I don't really understand what my previous answer means.</p>
+</body>
+</html>
