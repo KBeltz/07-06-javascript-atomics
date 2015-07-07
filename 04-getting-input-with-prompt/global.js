@@ -6,7 +6,8 @@ var age = prompt("What is your age?");
 var hometown = prompt("What is your hometown?");
 var fav_num = prompt("What is your favorite number?");
 
-console.log(typof (age));
+
+console.log(typeof age);
 
 //output
 alert("Your name is " + name + ".");
