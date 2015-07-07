@@ -16,3 +16,6 @@ else if (start > end) {
     alert(start);
   }
 }
+else {
+  alert("Error! I cannot count with the numbers you have given me.");
+}
