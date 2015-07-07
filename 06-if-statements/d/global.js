@@ -11,3 +11,31 @@
 // These messages can be displayed as alerts or as logs to the console.
 //
 // You will not need to use else or else if in this exercise.
+
+var age = parseInt(prompt("Enter your age: "));
+
+if (age >= 25) {
+  alert("Congratulations, you can rent a car!");
+}
+
+if (age >= 21) {
+  alert("Please don't drink and drive!");
+}
+
+if (age >= 16) {
+  alert("You're eligible for a driver's license!");
+}
+
+if (age >= 0 && age <= 15) {
+  alert("You can't drive yet, but you'll be able to in a few years!");
+}
+
+if (age < 0) {
+  alert("You haven't been born yet!");
+}
+
+var valid = isNaN(age)
+
+if (valid === true) {
+  alert("Sorry, but that's not a number!");
+}
